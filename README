@@ -8,4 +8,17 @@ to the main.py
 
 Solution
 ========
-If you want to know the solution you can checkout "solution" branch
+This type of task can be best finished using "git add -p". This will start
+"addition mode" where git will start asking questions about which changed chunks
+you want to add to index for future committing. 
+
+Usually you can split the chunks into smaller pieces by typing "s". This is
+helpful if git offers you a big chunk that includes both pieces you want to add
+to the next commit and pieces you want to leave for later.
+
+This example however doesn't work with split because we want to split a single
+continuous chunk. For these instances we can start edit mode (type "e"). This
+will start your favorite EDITOR - just remove the second method (print_square)
+and save the file. Now you have the square method in the index - you can do git
+commit. And then follow up with git commit -a - since you'll want to commit all
+remaining changes.
