@@ -1,0 +1,12 @@
+Task
+====
+Before starting please run: "git reset --mixed HEAD~1"
+
+Your task is to commit changes in this repository. To make things more
+interesting, you have to create 2 commits - one for each method that was added
+to the main.py
+
+
+Solution
+========
+If you want to know the solution you can checkout "solution" branch
